@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "750713342475",
+    "firebase_url": "https://habitica-social-28ab0.firebaseio.com",
+    "project_id": "habitica-social-28ab0",
+    "storage_bucket": "habitica-social-28ab0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750713342475:android:60d142d3e664fbe2b3150e",
+        "android_client_info": {
+          "package_name": "com.dynamisdevelopment.habitica_social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750713342475-nfu954quq5odoho5ekjbgq4e97sctacg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Z55l4u8qPkwkr8k0j9gJS5uWBIrt1h8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750713342475-nfu954quq5odoho5ekjbgq4e97sctacg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
