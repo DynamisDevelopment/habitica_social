@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './login.dart';
+import './login/login.dart';
 import 'Dashboard.dart';
 
 class Home extends StatefulWidget {
@@ -14,6 +14,7 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    return isAuth ? Login() : Dashboard();
+    //* Show either the login screen or dashboard base on authentication.
+    return isAuth ? Dashboard() : Login();
   }
 }
