@@ -15,6 +15,6 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     //* Show either the login screen or dashboard base on authentication.
-    return isAuth ? Dashboard() : Login();
+    return isAuth ? Dashboard() : LoginPage();
   }
 }
