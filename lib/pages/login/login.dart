@@ -68,17 +68,22 @@ Scaffold LoginPage() {
                     ),
                   ),
                 ),
-                width: 350,
-                height: 75,
+                width: 325,
+                height: 65,
               ),
             )
           ],
           mainAxisAlignment: MainAxisAlignment.spaceAround,
         ),
         decoration: BoxDecoration( 
-          color: Color(0xFF432874),
+          image: DecorationImage( 
+            image: ExactAssetImage( 
+              'assets/mountain-bg.png',
+            ),
+          ),
         ),
-        width: 500,
+        width: 600,
+        height: 700,
       ),
     ),
   );
